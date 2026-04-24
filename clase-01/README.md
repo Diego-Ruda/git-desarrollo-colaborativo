@@ -49,3 +49,9 @@ git commit -m "mensaje descriptivo"
 git log # version larga
 git log --oneline # version corta
 ```
+
+## Como ver diferencias entre el working directory y el local repo
+
+```sh
+git diff
+```
