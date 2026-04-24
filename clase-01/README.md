@@ -31,4 +31,10 @@ git add <nombre-archivo>
 git add README.md
 ```
 
+## como ver el estado del archivo y en que area esta
+
+```sh
+git status
+```
+
 
