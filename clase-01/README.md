@@ -55,3 +55,10 @@ git log --oneline # version corta
 ```sh
 git diff
 ```
+
+## Ver el contenido del commit y quien hizo ese commit
+
+````sh
+git show <hash>
+git show 8f2a
+```
