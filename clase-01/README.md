@@ -42,3 +42,10 @@ git status
 ```sh
 git commit -m "mensaje descriptivo"
 ```
+
+## Como ver la lista de commits
+
+```sh
+git log # version larga
+git log --oneline # version corta
+```
