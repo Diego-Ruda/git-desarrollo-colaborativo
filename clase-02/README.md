@@ -28,17 +28,26 @@ git branch -a
 
 ## Otra manera de hacer run commit
 
-1. Muevo los archivos al staging area
+    1. Muevo los archivos al staging area
+    ```sh
+    git add <nombre/archivo>
+    ```
+    2. Hago un commit
+
+    ```sh
+    git commit # Eso abre el nano/vim/vsc para que escribamos el mensaje
+    ```
+    3. Una vez escrito el mensaje paraconfirmar
+
+    Ctrl + O + Enter (guardar) | Ctrl + X.
+    
+    
+## Creando una rama(Creando una bifurcacion)
+
 ```sh
-git add <nombre/archivo>
+#primera alternativa
+git branch feature/ramas #crear una rama
+git switch feature/ramas #Me muevo a la rama que indico
+# segunda alternativa
+git switch -c feature/ramas #crear una rama y moverse a esa rama 
 ```
-2. Hago un commit
-
-```sh
-git commit # Eso abre el nano/vim/vsc para que escribamos el mensaje
-
-3. Una vez escrito el mensaje paraconfirmar
-
-Ctrl + O + Enter (guardar) | Ctrl + X
-
-
