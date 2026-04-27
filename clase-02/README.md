@@ -36,9 +36,25 @@ git add <nombre/archivo>
 
 ```sh
 git commit # Eso abre el nano/vim/vsc para que escribamos el mensaje
-
+```
 3. Una vez escrito el mensaje paraconfirmar
 
 Ctrl + O + Enter (guardar) | Ctrl + X
 
+## Creando una rama(Creando una bifurcacion)
 
+```sh
+#primera alternativa
+git branch feature/ramas #crear una rama
+git switch feature/ramas #Me muevo a la rama que indico
+# segunda alternativa
+git switch -c feature/ramas #crear una rama y moverse a esa rama 
+```
+
+## Como saber la diferencia entre 2 ramas
+
+```sh
+git diff <nombre-rama>
+# En main y quiero ver la diferencia entre main y feature/ramas
+git diff feature/ramas
+```
