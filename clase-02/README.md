@@ -20,8 +20,25 @@ Las ramas me permiten trabajar en diferentes partes del proyecto de manera auxil
 git branch
 ```
 
-## Lister ramas remotas
+## Lister ramas locales y remotas
 
 ```sh
 git branch -a
 ```
+
+## Otra manera de hacer run commit
+
+1. Muevo los archivos al staging area
+```sh
+git add <nombre/archivo>
+```
+2. Hago un commit
+
+```sh
+git commit # Eso abre el nano/vim/vsc para que escribamos el mensaje
+
+3. Una vez escrito el mensaje paraconfirmar
+
+Ctrl + O + Enter (guardar) | Ctrl + X
+
+
