@@ -58,3 +58,11 @@ git diff <nombre-rama>
 # En main y quiero ver la diferencia entre main y feature/ramas
 git diff feature/ramas
 ```
+
+## Fusionar 2 ramas
+**IMPORTANTE** Siempre que quiero traerme los cambios de una rama a otra. Tengo que estar ubicado en la rama donde quiero traerme los cambios.
+O sea que si quiero traeme lo que esta en feature/ramas a la rama main. Tengo que estar ubicado en la rama main.
+
+```sh
+git switch main
+```
