@@ -65,8 +65,18 @@ O sea que si quiero traeme lo que esta en feature/ramas a la rama main. Tengo qu
 
 ```sh
 git switch main
+git merge feature/ramas
 ```
+
+* Fast/forward: El mejor de los mundos. La fusion fue hecha automaticamente por GIT sin conflicto
+* Tercera Vía: Bueno mundo. La fusion la hace tambien git automaticamente. Sin conflicto
+* Conflicto: Sucede cuando en la difertentes ramas hay cambios en las misma lineas de los mismos archivos
+
+
 
 ## Herramientas visuales para trabajar con GIT
 * Github Desktop <https://desktop.github.com/download/>
 * GitKraken <https://www.gitkraken.com/>
+
+
+
